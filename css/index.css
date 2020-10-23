@@ -224,7 +224,7 @@ button:hover {
   background-color: transparent;
   color: #000000;
   box-shadow: 4px 4px rgba(191, 133, 226, 0.676908263305322);
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 input {
   background-color: transparent;
