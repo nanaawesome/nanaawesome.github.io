@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 
 /* Body */
 * {
@@ -132,14 +133,44 @@ body {
 /* End of header section */
 
 /* For landing page */
+.welcome {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 70vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
 .intro {
   text-align: center;
-  display: flex;
-  height: 100vh;
+  font-family: "Syne Mono", monospace;
 }
-.welcome {
-  margin-top: 100px;
-  margin-right: 50px;
+.typing {
+  margin-left: 10px;
+  text-align: center;
+  position: relative;
+  font-family: "Syne Mono", monospace;
+}
+.typing::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 5%;
+  border-right: 2px solid white;
+  right: -5px;
+  animation: blink 0.5s infinite ease;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* For contact page */
@@ -374,6 +405,11 @@ textarea {
     font-size: 1.5rem;
   }
   /* end of header with navigation */
+
+  /* Landing page */
+  .welcome {
+    height: 50vh;
+  }
 
   /* for contact page*/
   #contact .contact-items {
