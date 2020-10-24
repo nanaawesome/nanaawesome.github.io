@@ -23,7 +23,7 @@ body {
       rgba(191, 133, 226, 0.676908263305322) 100%,
       rgba(193, 200, 228, 1) 100%
     ),
-    url(/images/landingpage.jpg) no-repeat center fixed;
+    url("../images/landingpage.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
