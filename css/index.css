@@ -396,6 +396,11 @@ textarea {
 /* End of RESOURCE PAGES */
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops */
+@media only screen and (min-width: 600px) {
+  .welcome {
+    height: 50vh;
+  }
+}
 @media only screen and (min-width: 1200px) {
   /* Header with navigation */
   #header .hamburger {
