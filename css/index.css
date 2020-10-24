@@ -134,6 +134,8 @@ body {
 /* For landing page */
 .intro {
   text-align: center;
+  display: flex;
+  height: 100vh;
 }
 .welcome {
   margin-top: 100px;
