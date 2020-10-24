@@ -171,9 +171,9 @@ body {
   content: "";
   width: 1px;
   height: 5%;
-  border-right: 2px solid white;
-  right: -5px;
-  animation: blink 0.5s infinite ease;
+  border-top: 45px solid black;
+  right: initial;
+  animation: blink 0.6s infinite ease;
 }
 @keyframes blink {
   0% {
