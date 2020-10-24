@@ -400,6 +400,14 @@ textarea {
   .welcome {
     height: 50vh;
   }
+  #resources .item {
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  #resources .item {
+    width: 800px;
+  }
 }
 @media only screen and (min-width: 1200px) {
   /* Header with navigation */
