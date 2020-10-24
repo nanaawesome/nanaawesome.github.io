@@ -131,6 +131,15 @@ body {
 }
 /* End of header section */
 
+/* For landing page */
+.intro {
+  text-align: center;
+}
+.welcome {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
 /* For contact page */
 #page-container {
   position: relative;
