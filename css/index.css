@@ -16,6 +16,16 @@ body {
     rgba(193, 200, 228, 1) 100%
   );
 }
+.landing-page {
+  background: linear-gradient(
+      90deg,
+      rgba(132, 206, 235, 0.7) 0%,
+      rgba(191, 133, 226, 0.676908263305322) 100%,
+      rgba(193, 200, 228, 1) 100%
+    ),
+    url(/images/landingpage.jpg) no-repeat center fixed;
+  background-size: cover;
+}
 
 /* End of Body Styling */
 
@@ -133,6 +143,7 @@ body {
 /* End of header section */
 
 /* For landing page */
+
 .welcome {
   display: flex;
   justify-content: right;
@@ -142,7 +153,7 @@ body {
   height: 70vh;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, -50%);
   padding: 10px;
 }
 .intro {
