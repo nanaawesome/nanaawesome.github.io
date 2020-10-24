@@ -138,7 +138,7 @@ body {
 }
 
 #content-wrap {
-  padding-bottom: 175px; /* Footer height */
+  padding-bottom: 185px; /* Footer height */
 }
 
 /* Start of contact info */
@@ -284,16 +284,18 @@ textarea {
   font-size: 0.5rem;
 }
 #resources .flex {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   max-width: 1920px;
-  justify-content: center;
+  display: flex;
 }
 
 #resources .items {
   margin: 0 auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #resources .item {
@@ -301,7 +303,7 @@ textarea {
   padding: 30px;
   flex-direction: column;
   display: flex;
-  margin: 20px;
+  margin: 8px;
   border-radius: 10px;
   background: rgb(132, 206, 235);
   background: linear-gradient(
@@ -310,7 +312,7 @@ textarea {
     rgba(191, 133, 226, 0.676908263305322) 100%,
     rgba(193, 200, 228, 1) 100%
   );
-  width: 80%;
+  width: 350px;
   height: 250px;
   overflow-y: scroll;
 }
@@ -378,6 +380,9 @@ textarea {
   #resources .items {
     display: flex;
     width: 100%;
+  }
+  #resources .item {
+    width: 350px;
   }
   /* End of resource pages */
 }
