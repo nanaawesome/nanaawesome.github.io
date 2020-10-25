@@ -19,7 +19,7 @@ body {
 .landing-page {
   background: linear-gradient(
       90deg,
-      rgba(132, 206, 235, 0.7) 0%,
+      rgba(132, 206, 235, 0.65) 0%,
       rgba(191, 133, 226, 0.676908263305322) 100%,
       rgba(193, 200, 228, 1) 100%
     ),
