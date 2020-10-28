@@ -154,7 +154,7 @@ body {
   width: 100vh;
   left: 50%;
   top: 50%;
-  transform: translate(-20%, -50%);
+  transform: translate(-10%, -30%);
   padding: 10px;
 }
 .intro {
