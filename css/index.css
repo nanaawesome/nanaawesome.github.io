@@ -151,7 +151,7 @@ body {
   font-size: 1.2rem;
   position: absolute;
   height: 70vh;
-  width: 70vh; 
+  width: 70vw; 
   left: 50%;
   top: 50%;
   transform: translate(-10%, -50%);
