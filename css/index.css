@@ -400,6 +400,8 @@ textarea {
 @media only screen and (min-width: 600px) {
   .welcome {
     height: 50vh;
+    transform: translate(-30%, -50%);
+  }
     
   
   #resources .item {
