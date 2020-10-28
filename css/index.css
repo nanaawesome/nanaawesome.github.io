@@ -398,12 +398,6 @@ textarea {
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops and 600px like tablets and phones*/
 @media only screen and (min-width: 600px) {
-  .welcome {
-    height: 50vh;
-   
-  }
-    
-  
   #resources .item {
     width: 800px;
   }
