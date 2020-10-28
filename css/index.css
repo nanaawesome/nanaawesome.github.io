@@ -411,13 +411,9 @@ textarea {
 
 @media screen and (max-width: 600px) {
   .welcome{
-    font-size:0.7em;
-  
     overflow-x:hidden;
-    position:relative;
     font-size: 1rem;
-    left: 30%;
-
+    left: 70%;
   }
 }
 
