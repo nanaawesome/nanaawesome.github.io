@@ -406,13 +406,14 @@ textarea {
   .welcome{
     margin-right:35px;
     display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
   font-size: 1.2rem;
-  position: absolute;
+  position: relative;
   height: 70vh;
-  left:0%
+  left: 0%;
   top: 50%;
+  transform: translate(0%, -50%);
   padding: 10px;
   }
   #resources .item {
