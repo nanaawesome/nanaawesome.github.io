@@ -404,7 +404,7 @@ textarea {
 }
 @media only screen and (max-width: 600px) {
   .welcome{
-    margin-right:25px;
+    margin-right:35px;
   }
   #resources .item {
     width: 800px;
