@@ -413,7 +413,7 @@ textarea {
   .welcome{
     font-size:0.7em;
     width:fit-content;
-    overflow-x:auto;
+    overflow-x:hidden;
     position:relative;
   }
 }
