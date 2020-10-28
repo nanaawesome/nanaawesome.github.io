@@ -402,7 +402,7 @@ textarea {
     width: 800px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 100px) {
   .welcome{
     margin-right:35px;
     display: flex;
