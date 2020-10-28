@@ -405,6 +405,16 @@ textarea {
 @media only screen and (max-width: 600px) {
   .welcome{
     margin-right:35px;
+    display: flex;
+  justify-content: right;
+  flex-direction: column;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 70vh;
+ 
+  top: 50%;
+
+  padding: 10px;
   }
   #resources .item {
     width: 800px;
