@@ -401,13 +401,7 @@ textarea {
   .welcome {
     height: 50vh;
     
-  }
-  .intro{
-    font-size:1.5em;
-  }
-  .typing{
-    font-size:1.5em;
-  }
+  
   #resources .item {
     width: 800px;
   }
