@@ -412,7 +412,7 @@ textarea {
 @media screen and (max-width: 600px) {
   .welcome{
     font-size:0.7em;
-    width:auto;
+    width:fit-content;
     overflow-x:auto;
   }
 }
