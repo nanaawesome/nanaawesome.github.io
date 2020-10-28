@@ -402,6 +402,14 @@ textarea {
     width: 800px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .welcome{
+    margin:0 auto;
+  }
+  #resources .item {
+    width: 800px;
+  }
+}
 
 
 
