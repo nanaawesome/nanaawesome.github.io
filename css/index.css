@@ -404,10 +404,10 @@ textarea {
   #resources .item {
     width: 800px;
   }
-  @media only screen and (max-width: 500px) {
+  @media screen and (min-width: 100px) and (max-width: 600px) {
     .welcome {
     height: 50vh;
-    width:10vw;
+    width:50%;
   }
   }
 
