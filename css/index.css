@@ -414,6 +414,7 @@ textarea {
     font-size:0.7em;
     width:fit-content;
     overflow-x:auto;
+    position:relative;
   }
 }
 
