@@ -401,8 +401,13 @@ textarea {
   #resources .item {
     width: 800px;
   }
-  .welcome{
-    diplay:none;
+  .welcome {
+   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  left:100%;
+  height: 100%;
+  max-width: 600px;  
   }
 }
 
