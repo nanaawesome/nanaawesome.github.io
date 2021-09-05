@@ -262,7 +262,7 @@ button {
 button:hover {
   background-color: transparent;
   color: #000000;
-  box-shadow: 4px 4px rgba(191, 133, 226, 0.676908263305322);
+  box-shadow: 2px 2px rgba(191, 133, 226, 0.676908263305322);
   transition: 0.5s ease;
 }
 input {
@@ -399,7 +399,7 @@ textarea {
   
 }
 
-.formz {
+.formz,.submit {
   text-align: center;
   margin: 0 auto;
   padding: 10px;
