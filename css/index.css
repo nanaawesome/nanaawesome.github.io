@@ -391,10 +391,11 @@ textarea {
   box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.47);
   border-radius: 13px;
   width:50%;
+  margin-bottom: 1.7rem;
 }
 .contact-form{
   position:relative;
-  margin-bottom: 1rem;
+  
 }
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops and 600px like tablets and phones*/
