@@ -391,6 +391,9 @@ textarea {
   box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.47);
   border-radius: 13px;
 }
+.contact-form{
+  position:relative;
+}
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops and 600px like tablets and phones*/
 @media only screen and (min-width: 600px) {
