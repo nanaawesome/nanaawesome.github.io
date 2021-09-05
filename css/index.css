@@ -381,7 +381,7 @@ textarea {
 }
 /* End of RESOURCE PAGES */
 
-.contact-form{
+.form-container{
   border-style: none;
   left: 50%;
   position: absolute;
