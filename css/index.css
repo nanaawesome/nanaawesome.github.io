@@ -236,19 +236,7 @@ body {
   font-family: "Sansita Swashed", cursive;
   font-size: 1.5rem;
 }
-form {
-  font-size: 25px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 10px;
-}
-.formz {
-  text-align: center;
-  margin: 0 auto;
-  padding: 10px;
-}
+
 
 button {
   border-style: solid;
