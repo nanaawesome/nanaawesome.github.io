@@ -266,11 +266,13 @@ button:hover {
   transition: 0.5s ease;
 }
 input {
-  background-color: transparent;
   height: 25px;
+  background: rgba(255, 255, 255, 0.31);
+  border: 1px solid #000000;
+  box-sizing: border-box;
   border-radius: 10px;
-  border-color: black;
 }
+
 textarea {
   border-radius: 10px;
   border-color: black;
