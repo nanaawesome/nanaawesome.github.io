@@ -392,11 +392,19 @@ textarea {
   border-radius: 13px;
   width:50%;
   margin-bottom: 1.7rem;
+  margin-top: 1.7rem;
 }
 .contact-form{
   position:relative;
   
 }
+
+.formz {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops and 600px like tablets and phones*/
 @media only screen and (min-width: 600px) {
