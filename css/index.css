@@ -382,8 +382,7 @@ textarea {
 /* End of RESOURCE PAGES */
 
 .contact-form{
-  border-style: solid;
-  border-color:#000000;
+  border-style: none;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -30%);
