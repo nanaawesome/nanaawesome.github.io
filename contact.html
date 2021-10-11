@@ -9,6 +9,11 @@
   <title>Contact Me</title>
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="shortcut icon" href="./images/weblogo.ico" type="image/x-icon" />
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E42ZHGSZ7V"></script>
   <script>
@@ -45,77 +50,87 @@
 
   <div id="page-container">
     <div id="content-wrap">
-      <!-- Start of contact info -->
-      <section id="contact">
-        <div class="contact container">
-          <div class="contact-items">
-            <div class="contact-item">
-              <div class="icon">
-                <img src="./images/icons8-email-64.png" alt="" />
-              </div>
-              <div class="contact-details">
-                <h1>Email</h1>
-                <h2>asarefrimpongnanayaw@gmail.com</h2>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="icon">
-                <img src="./images/instagram.jpg" alt="" />
-              </div>
-              <div class="contact-details">
-                <h1>Instagram</h1>
-                <h2>na.na_y.aw</h2>
+      <!-- ======= Contact Section ======= -->
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2 style="margin-top:4.3rem; text-align:center;">CONTACT ME</h2>
+          </div>
+
+          <div class="row mt-2">
+
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>My Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
               </div>
             </div>
-            <div class="contact-item">
-              <div class="icon">
-                <img src="./images/IMG_1950.jpg" alt="" />
+
+            <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-share-alt"></i>
+                <h3>Social Profiles</h3>
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="icofont-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+                </div>
               </div>
-              <div class="contact-details">
-                <h1>Snapchat</h1>
+            </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Me</h3>
+                <p>asarefrimpongnanayaw@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Me</h3>
+                <p>+1 5589 55488 55</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- End of contact information -->
-
-      <!-- Start of contact form -->
-
-      <p id="form-info">
-        If you would like to give suggestions for the website or suggest
-        other resource links that can be added, kindly fill out this form.
-        You could also use this if any of the links don't work.
-      </p>
-      <div class="contact-form">
-        <div class="form-container">
-          <form action="https://formspree.io/xknpnjdv" method="POST">
-            <div class="formz">
-              <label>
-                Name:
-                <input type="text" name="name" size="30" placeholder="Enter Name" required />
-              </label>
+          <form action="https://formspree.io/xknpnjdv" method="post" class="php-email-form mt-4">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
             </div>
-            <div class="formz">
-              <label>
-                Email:
-                <input type="text" name="_replyto" placeholder="Please enter email address" size="30" required />
-              </label>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
             </div>
-            <div class="formz">
-              <label> Message: </label>
-              <br />
-              <textarea name="message" rows="15" cols="40"></textarea>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
             </div>
-
-            <div class="formz">
-              <button type="submit" class="submit">Submit</button>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
+
         </div>
-      </div>
-      <!-- End of contact form-->
+      </section><!-- End Contact Section -->
     </div>
 
     <!-- Start of footer -->
