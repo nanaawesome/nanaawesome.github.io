@@ -1,4 +1,4 @@
-const texts = ["IGCSE", "A Level", "IBDP"];
+const texts = ["IGCSE", "A Level", "IB Diploma"];
 let count = 0;
 let index = 0;
 let currentText = "";
