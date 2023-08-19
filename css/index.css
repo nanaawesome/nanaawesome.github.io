@@ -245,6 +245,7 @@ body {
 .contact .php-email-form {
   padding: 30px;
   background: rgba(255, 255, 255, 0.08);
+  align-items: center;
 }
 
 .contact .php-email-form .validate {
@@ -522,6 +523,11 @@ body {
 
 .section-title {
   font-family: "Chilanka", cursive;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
 }
 
 /* Responsivenes: for screens with a minimum screen width of 1200px, like laptops and 600px like tablets and phones*/
